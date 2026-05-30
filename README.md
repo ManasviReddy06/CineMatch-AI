@@ -1,28 +1,66 @@
 # 🎬 CineMatch AI
 
-## Overview
-
-CineMatch AI is a machine learning-powered movie recommendation system that helps users discover movies based on content similarity and mood preferences.
-
-The system uses Natural Language Processing (NLP), TF-IDF Vectorization, and Cosine Similarity to generate personalized movie recommendations.
+A Machine Learning-powered Movie Recommendation System that helps users discover movies based on content similarity and mood preferences.
 
 ---
 
-## Features
+## 🚀 Live Features
 
-* Movie Recommendation Engine
-* Content-Based Filtering
-* TF-IDF Vectorization
-* Cosine Similarity Matching
-* Mood-Based Recommendations
-* Analytics Dashboard
-* Match Score Display
-* Interactive Streamlit UI
-* Dark Netflix-Inspired Theme
+✅ Content-Based Movie Recommendations
+
+✅ TF-IDF Vectorization
+
+✅ Cosine Similarity Matching
+
+✅ Match Score Calculation
+
+✅ Analytics Dashboard
+
+✅ Mood-Based Movie Discovery
+
+✅ Interactive Streamlit Interface
+
+✅ Dark Themed UI
 
 ---
 
-## Tech Stack
+## 📖 Problem Statement
+
+With thousands of movies available across streaming platforms, users often struggle to discover content that matches their interests.
+
+CineMatch AI solves this problem by leveraging Machine Learning and Natural Language Processing techniques to analyze movie metadata and recommend similar movies intelligently.
+
+---
+
+## 🧠 Machine Learning Pipeline
+
+```text
+Dataset
+   ↓
+Data Cleaning
+   ↓
+Feature Engineering
+   ↓
+Text Vectorization (TF-IDF)
+   ↓
+Cosine Similarity
+   ↓
+Recommendation Engine
+   ↓
+Streamlit Web Application
+```
+
+### Recommendation Factors
+
+* Genres
+* Keywords
+* Cast
+* Directors
+* Movie Overview
+
+---
+
+## 🛠️ Tech Stack
 
 ### Machine Learning
 
@@ -42,63 +80,129 @@ The system uses Natural Language Processing (NLP), TF-IDF Vectorization, and Cos
 
 ---
 
-## Dataset
+## 📂 Dataset
 
 TMDB 5000 Movies Dataset
 
-Files:
+Files Used:
 
 * tmdb_5000_movies.csv
 * tmdb_5000_credits.csv
 
----
+Total Movies Analyzed:
 
-## Machine Learning Pipeline
-
-Dataset
-↓
-Data Cleaning
-↓
-Feature Engineering
-↓
-TF-IDF Vectorization
-↓
-Cosine Similarity
-↓
-Recommendation Engine
-↓
-Streamlit Application
+```text
+4,818
+```
 
 ---
 
-## Installation
+## 📸 Application Screenshots
+
+### 🏠 Home Page
+
+![Home Page](assets/homepage.png)
+
+---
+
+### 🎯 Movie Recommendations
+
+![Recommendations](assets/recommendations.png)
+
+---
+
+### 📊 Analytics Dashboard
+
+![Analytics Dashboard](assets/analytics.png)
+
+---
+
+### 🎭 Mood-Based Recommender
+
+![Mood Recommender](assets/mood.png)
+
+---
+
+### ℹ️ About Page
+
+![About Page](assets/about.png)
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ManasviReddy06/CineMatch-AI.git
+```
+
+Move into the project directory:
+
+```bash
+cd CineMatch-AI
+```
+
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
 streamlit run app.py
 ```
 
-## Project Structure
+---
 
-movie-recommendation-system/
+## 📁 Project Structure
+
+```text
+CineMatch-AI
+│
 ├── assets/
-├── data/
+│   ├── homepage.png
+│   ├── recommendations.png
+│   ├── analytics.png
+│   ├── mood.png
+│   └── about.png
+│
 ├── models/
+│   └── movies.pkl
+│
 ├── notebooks/
+│   └── movie_recommender.ipynb
+│
 ├── src/
+│   └── preprocess.py
+│
 ├── .streamlit/
+│   └── config.toml
+│
 ├── app.py
 ├── requirements.txt
-└── README.md
+├── README.md
+└── .gitignore
+```
 
-## Future Improvements
+---
 
+## 🔮 Future Improvements
+
+* Collaborative Filtering
 * Hybrid Recommendation System
 * User Authentication
-* Watchlist Feature
-* Collaborative Filtering
-* Real-Time Movie API Integration
+* Personalized Watchlists
+* Real-Time TMDB API Integration
+* Trailer Recommendations
+* Genre-Based Filtering
 
-## Author
+---
 
-Manasvi Reddy
+## 👨‍💻 Author
+
+**Manasvi Reddy**
+
+Machine Learning Assignment Submission – Round 2
