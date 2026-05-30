@@ -1,0 +1,13 @@
+models/similarity.pkl
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+
+*.pyc
+*.pyo
+*.pyd
+
+.env
+
+data/
