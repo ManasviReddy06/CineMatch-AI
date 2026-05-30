@@ -1,30 +1,30 @@
-# 🎬 CineMatch AI
+#  CineMatch AI
 
 A Machine Learning-powered Movie Recommendation System that helps users discover movies based on content similarity and mood preferences.
 
 ---
 
-## 🚀 Live Features
+##  Live Features
 
-✅ Content-Based Movie Recommendations
+1. Content-Based Movie Recommendations
 
-✅ TF-IDF Vectorization
+2. TF-IDF Vectorization
 
-✅ Cosine Similarity Matching
+3. Cosine Similarity Matching
 
-✅ Match Score Calculation
+4. Match Score Calculation
 
-✅ Analytics Dashboard
+5. Analytics Dashboard
 
-✅ Mood-Based Movie Discovery
+6. Mood-Based Movie Discovery
 
-✅ Interactive Streamlit Interface
+7. Interactive Streamlit Interface
 
-✅ Dark Themed UI
+8. Dark Themed UI
 
 ---
 
-## 📖 Problem Statement
+##  Problem Statement
 
 With thousands of movies available across streaming platforms, users often struggle to discover content that matches their interests.
 
@@ -32,7 +32,7 @@ CineMatch AI solves this problem by leveraging Machine Learning and Natural Lang
 
 ---
 
-## 🧠 Machine Learning Pipeline
+##  Machine Learning Pipeline
 
 ```text
 Dataset
@@ -60,7 +60,7 @@ Streamlit Web Application
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Machine Learning
 
@@ -80,7 +80,7 @@ Streamlit Web Application
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 TMDB 5000 Movies Dataset
 
@@ -97,33 +97,33 @@ Total Movies Analyzed:
 
 ---
 
-## 📸 Application Screenshots
+##  Application Screenshots
 
-### 🏠 Home Page
+###  Home Page
 
 ![Home Page](assets/homepage.png)
 
 ---
 
-### 🎯 Movie Recommendations
+###  Movie Recommendations
 
 ![Recommendations](assets/recommendations.png)
 
 ---
 
-### 📊 Analytics Dashboard
+###  Analytics Dashboard
 
 ![Analytics Dashboard](assets/analytics.png)
 
 ---
 
-### 🎭 Mood-Based Recommender
+###  Mood-Based Recommender
 
 ![Mood Recommender](assets/mood.png)
 
 ---
 
-### ℹ️ About Page
+###  About Page
 
 ![About Page](assets/about.png)
 
@@ -157,7 +157,7 @@ streamlit run app.py
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 CineMatch-AI
@@ -189,7 +189,7 @@ CineMatch-AI
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 * Collaborative Filtering
 * Hybrid Recommendation System
@@ -201,7 +201,7 @@ CineMatch-AI
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Manasvi Reddy**
 
